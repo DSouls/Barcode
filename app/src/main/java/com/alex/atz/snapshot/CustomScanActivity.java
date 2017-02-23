@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.alex.atz.snapshot.R;
 import com.journeyapps.barcodescanner.CaptureManager;
 import com.journeyapps.barcodescanner.DecoratedBarcodeView;
 
@@ -91,7 +90,7 @@ public class CustomScanActivity extends AppCompatActivity implements DecoratedBa
     }
 
     @OnClick(R.id.btn_switch)
-    public void swichLight() {
+    public void switchLight() {
         if(isLightOn) {
             mDBV.setTorchOff();
         } else {
