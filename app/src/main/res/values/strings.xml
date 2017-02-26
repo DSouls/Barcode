@@ -3,4 +3,5 @@
     <string name="edit_text">content to be encoded to bar code</string>
     <string name="generate_btn">Generate Barcode</string>
     <string name="scan_btn">Scan Barcode</string>
+    <string name="save_btn">Save Barcode</string>
 </resources>

@@ -73,6 +73,9 @@ public class CustomScanActivity extends AppCompatActivity implements DecoratedBa
         mCaptureManager = new CaptureManager(this, mDBV);
         mCaptureManager.initializeFromIntent(getIntent(), savedInstanceState);
         mCaptureManager.decode();
+        // TO DO
+        //mCaptureManager.returnResult();
+
     }
 
     @Override
